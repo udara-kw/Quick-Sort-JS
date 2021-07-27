@@ -19,6 +19,6 @@ function quickSort(list, low, high) {
   }
 }
 
-testList = [10, 34, 21, -3, 0, 44, 987, 67, -42, 65, 8, 9];
-quickSort(testList, 0, testList.length-1);
+testList = [10, 34, 21, -3, 0, 44, 987, "67", -42, 65, 8, 9];
+quickSort(testList, 0, testList.length - 1);
 console.log(testList);
